@@ -23,7 +23,7 @@ resource "aws_ebs_volume" "ebs" {
     env  = "Dev"
     Team = "DevOps"
   }
-  
+
 }
 //attach ebs to ec2
 resource "aws_volume_attachment" "ebs_att" {
